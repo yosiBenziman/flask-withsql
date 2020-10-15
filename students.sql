@@ -1,6 +1,6 @@
 CREATE DATABASE AnsibleTraining;
 CREATE TABLE `AnsibleTraining`.`students` (
-      `id` BIGINT NULL AUTO_INCREMENT,
+      `id` BIGINT AUTO_INCREMENT,
       `name` VARCHAR(45) NULL,
       PRIMARY KEY (`id`));
 
