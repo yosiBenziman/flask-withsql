@@ -3,7 +3,7 @@ from flaskext.mysql import MySQL
 
 mysql = MySQL()
 app = Flask(__name__)
-app.config.from_pyfile('database.cfg')
+app.config.from_pyfile('/etc/database.cfg')
 app.config.from_pyfile('/etc/dbhost.cfg')
 
 mysql.init_app(app)
